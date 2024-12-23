@@ -69,7 +69,7 @@ const productSlice = createSlice({
       })
       .addCase(getCategoryProducts.rejected, (state) => {
         state.productsStatus = STATUS.FAIL;
-      })
+      });
   },
 });
 
